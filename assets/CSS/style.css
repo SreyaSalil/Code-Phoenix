@@ -116,3 +116,14 @@ ul {
     top: -171px;
     left: 606px;
 }
+
+.downloadBox{
+    align-items: center;
+}
+
+.FormDiv input{
+    height: 26px;
+    width: 298px;
+    border: none;
+    border-radius: 10px
+}

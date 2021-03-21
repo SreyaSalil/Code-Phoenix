@@ -96,6 +96,9 @@ a{
     margin: 0px;
     font-size: 23px;
 }
+.content-card{
+
+}
 .sm-1{
 	width : 8.33%;
 }
@@ -113,7 +116,6 @@ a{
 .impCard{
     font-size: 25px;
     font-weight: 600;
-    line-height: 50px;
 }
 .ic{
 	width: 40px;
@@ -138,6 +140,7 @@ a{
 	bottom: 15px;
 	right: 25px;
     border-radius: 50%;
+    z-index: 1000;
 }
 
  li a.text-dark{
@@ -174,4 +177,77 @@ a{
     }
     .text-center{
     	text-align: center;
+    }
+    .sm-12{
+    	width: 100%;
+    }
+    .know-more{
+		color: #fff;
+		font-size: xx-large;
+		padding-top: 166px;
+		padding-left: 63px;
+    }
+
+    .aboutUs{
+		color: #e2e2e2;
+		font-size: 6rem;
+		padding-top: 156px;
+		padding-left: 40px;
+    	margin: 0px;
+    }
+    .serachField{
+    	background-color: #fff;
+	    height: 119px;
+	    width: 85%;
+	    position: relative;
+	    left: 135px;
+    	border-radius: 14px;
+    }
+    .searchFieldInput{
+    	width: 85%;
+	    height: 40px;
+	    margin: 12px 100px;
+	    padding: 2px 17px;
+	    border: 1px solid #000;
+	    border-radius: 25px;
+    }
+    .searchFieldInput::Placeholder{
+    	font-weight: 600;
+    	font-size: 25px;
+
+    }
+    .SubmitBtn{
+    	font-weight: 600;
+    	font-size: larger;
+	    border-radius: 30px;
+	    float: right;
+	    height: 32px;
+	    width: 90px;
+	    color: #fff;
+	    background-color: green;
+	    margin-right: 85px;
+    }
+    .chooseUs{
+      font-size: xx-large;
+
+    }
+    .bg-gray{
+    	margin: 12px;
+    	padding: 12px;
+    }
+    .header-chooseUs{
+    	font-weight: 600;
+    	margin: 0px;
+    	font-size: x-large;
+    }
+    .content-chooseUs{
+	    font-size: medium;
+    	text-align: inherit;
+    }
+    .aboutUs-Content{
+	    padding: 0px 13%;
+	    font-size: larger;
+	    color: #787272;
+	    line-height: 25px;
+	    font-weight: 600;
     }
