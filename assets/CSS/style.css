@@ -79,9 +79,6 @@ ul {
     height: 550px;
     background-image: url(https://images.unsplash.com/photo-1534387094193-c7511d80ccfe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
     background-size: cover;
-    border-radius: 50px;
-    margin-left:20px ;
-    margin-right:60px ;
 
 }
 
@@ -104,5 +101,18 @@ ul {
 .AppGif{
     position:relative;
     top: 120px;
-    left: 20px;
+    left: 66px;
+    width: 95%;
+}
+
+.FormDiv{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+    width: 500px;
+    position:relative;
+    top: 120px;
+    left: 120px;
+    top: -171px;
+    left: 606px;
 }
