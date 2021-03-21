@@ -1,0 +1,36 @@
+body{
+	background-color: #e2e2e2;
+	overflow-x: scroll;
+}
+.title-logo{
+	font-family: 'Akaya Telivigala', cursive;
+	font-size: 38px;
+}
+.row{
+	width: 100%;
+	display: flex;
+}
+.sm-3{
+	width: 25%;
+}
+.sm-8{
+	width: 66.66%;
+}
+.sideAct, .mainAct{
+	background-color: #fff;
+	margin: 10px;
+	padding: 15px;
+	box-shadow: 2px 8px 9px -8px #000000;
+}
+.sideHeader{
+	font-weight: 600;
+	font-size: 28px;
+	margin: 0px;
+}
+.sideOrder{
+	 list-style-type: none;
+	 padding-left: 5px; 
+}
+.sideOrder >li{
+	font-size: px;
+}
