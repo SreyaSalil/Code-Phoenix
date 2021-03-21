@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/CSS/style.css">
+    <link rel="stylesheet" href="/assets/CSS/carousel.css">
     <title>TravelGO</title>
 </head>
 <body>
     <nav>
         <div class="NavBarMain">
-            <p id="brand">TravelGO</p>
-            <input type="text">
+            <div class="brand">
+                <p >TravelGO</p>
+            </div>
+            <!-- <div class="search">
+                <input type="text" placeholder="  Enter your dream destination here!">
+            </div> -->
         </div>
         <div class="NavBar">
             <div class="navLiLeft">
@@ -27,6 +32,31 @@
             </div>
         </div>
     </nav>
-    <script></script>
+    <div >
+        <img class="mySlides" src="/assets/images/1.webp"  width="1400" height="250">
+        <img class="mySlides" src="/assets/images/2.jpg"  width="1400" height="250">
+        <img class="mySlides" src="/assets/images/3.webp"  width="1400" height="250">
+      
+        <button style="position : absolute; right: 20px; top:189px;" onclick="plusDivs(-1)"><span class="fa fa-arrow-right"
+          ></span></button>
+        <button onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      
+      <script>
+      var slideIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
 </body>
 </html>

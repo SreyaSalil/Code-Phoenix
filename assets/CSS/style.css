@@ -1,0 +1,66 @@
+.NavBarMain{
+    overflow: hidden;
+    background-color: #0D1939;
+}
+.NavBar{
+    background-color: #454E66;
+    overflow: hidden;
+}
+.navLiLeft ul li{
+    float: left;
+    padding: 10px 15px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.navLiRight ul li{
+    float: right;
+    padding: 10px 15px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navLiLeft ul{
+    margin: 0;
+    padding: 5;
+}
+
+.navLiRight ul{
+    margin: 0;
+    padding: 5;
+}
+
+.NavBar ul li:hover{
+    background-color:#E34C26 ;
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.brand{
+    padding: 10px 25px;
+    margin: 5px;
+    font-size: 46px;
+    color: white;
+    display: inline-block;
+    line-height: 1px;
+    height: 62px;
+}
+
+/* .search{
+    display: inline-block;
+} */
+
+.search input{
+    width: 300px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.brand p::first-line{
+    display: none;
+}
